@@ -1,0 +1,55 @@
+.btn-outline-gray {
+    border: 2px solid #47474720;
+    color: #474747;
+    padding: 6px 9px;
+    font-size: 14px !important;
+}
+
+.btn-outline-gray:hover {
+    border: 2px solid #47474730;
+    color: #474747;
+}
+
+.btn-outline-gray.show {
+    border: 2px solid #47474730 !important;
+    color: #474747;
+}
+
+.up-header {
+    background-color: #F0F0F0;
+}
+
+.up-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-number {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.up-number a {
+    font-size: 21px;
+    font-weight: 700;
+    color: #474747;
+
+}
+
+.up-number p {
+    color: #474747de;
+}
+
+.dropdown-item {
+    font-style: 14px !important;
+}
+
+.dropdown-item:hover {
+    color: #474747f0;
+}
+
+.dropdown-item:active {
+    background-color: white;
+}

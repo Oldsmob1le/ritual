@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --blue: #3488EA;
+    --gray: #474747;
+    --light: #919191;
+    --banner: 1vw;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+}
+
+/* outline-gray button */
+
+.btn-head {
+    border: 2px solid #47474720;
+    color: var(--gray);
+    padding: 6px 9px;
+    font-size: 14px !important;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.btn-outline-gray {
+    border: 2px solid #47474720;
+    color: var(--gray);
+    transition: .2s;
+    border-radius: 100px;
+    padding: 15px 25px;
+    font-weight: 500;
+    font-size: 16px !important;
+}
+
+.btn-outline-gray:hover {
+    border-color: #47474747;
+    transition: .2s;
+}
+
+.btn-outline-gray.show {
+    border: 2px solid #47474730 !important;
+    color: var(--gray);
+}
+
+/* gray button */
+
+.btn-gray {
+    border: 2px solid var(--gray);
+    border-radius: 100px;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn-gray:hover {
+    color: white;
+    background-color: var(--gray);
+    transition: .5s;
+}
+
+/* blue button */
+
+.btn-blue {
+    color: white;
+    background-color: var(--blue);
+    border-radius: 100px;
+    padding: 15px 30px;
+    transition: .7s;
+    border: 2px solid var(--blue);
+}
+
+.btn-blue:hover {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    background-color: transparent;
+    transition: .5s;
+}
+
+/* outline-blue button */
+
+.btn-outline-blue {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    border-radius: 100px;
+    padding: 15px 30px;
+    transition: .7s;
+}
+
+.btn-outline-blue:hover {
+    color: white;
+    background-color: var(--blue);
+    transition: .5s;
+}
+
+@media (max-width: 576px) {
+    .btn-blue {
+        padding: 12px 25px;
+    }
+    .btn-outline-blue {
+        padding: 12px 25px;
+    }
+}
+@media (max-width: 456px) {
+    .btn-blue {
+        padding: 10px 20px;
+    }
+    .btn-outline-blue {
+        padding: 10px 15px;
+    }
+}
+
+/* cards */
+
+.card-title {
+    color: var(--gray);
+}
+
+.card-text {
+    color: var(--light);
+}
+
+.card {
+    border-radius: 12px !important;
+}

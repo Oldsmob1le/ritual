@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/default.css">
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+
+<body>
+
+    <!-- up-header start -->
+
+    <div class="up-header py-3 d-none d-md-block">
+        <div class="up-content container-xl d-flex justify-content-between align-items-center">
+            <div class="up-city">
+                <p>г. Казань, Республика Татарстан</p>
+            </div>
+            <div class="up-number d-flex align-items-center gap-4">
+                <p>Круглосуточная горячая линия:</p>
+                <a href="tel:+79370096700">
+                    +7 (937) 009-67-00
+                </a>
+                <div class="dropdown">
+                    <a class="btn-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        еще
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="tel:+296-20-99">
+                                296-20-99</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- up-header end -->
+
+    <!-- header start -->
+
+    <header>
+        <div class="header container-xl">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid p-0">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            Ритуальные услуги <br> <span>Груз 200</span>
+                        </a>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <div id="lottie-burger"></div>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="header-menu d-block d-md-flex">
+                            <a class="nav-link" href="#">Главная</a>
+                            <a class="nav-link" href="#">Услуги</a>
+                            <a class="nav-link" href="#">Морги</a>
+                            <a class="nav-link" href="#">О компании</a>
+                            <a class="nav-link" href="#">Отзывы</a>
+                        </div>
+                        <div class="header-btn">
+                            <a href="#" class="btn-gray" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить
+                                заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex flex-column">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h3 class="me-2 modal-title" id="exampleModalLabel">Бесплантная консультация</h3>
+                    <p class="text-center">Оставьте заявку и наши специалисты свяжутся с Вами в самое ближайшее время
+                    </p>
+                </div>
+                <div class="modal-body">
+                    <form method="post">
+                        <div class="d-flex flex-column">
+                            <div class="form__group field w-100">
+                                <input type="text" class="form__field" name="name" id="name" placeholder="Ваше имя"
+                                    required />
+                                <label for="name" class="form__label">Ваше имя</label>
+                            </div>
+                            <div class="form__group field w-100">
+                                <input id="phone" type="text" class="form__field" name="tel" id="tel"
+                                    placeholder="Телефон" required />
+                                <label for="tel" class="form__label">Телефон *</label>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 mt-4 ms-5">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <span>Я согласен(а) с обработкой персональных данных и политикой конфиденциальности
+                                *</span>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-blue w-75 m-0 m-auto">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header end -->
+
+    <!-- banner start -->
+
+    <section class="banner">
+        <div class="banner-bg">
+            <!-- <img src="assets/image/Background.png" alt="" class="img-fluid"> -->
+            <div class="banner-main container-xl">
+                <h1>Организация похорон <br>
+                    в Казани и РТ</h1>
+                <p>Перевезём умершего в любую точку мира, России и СНГ автомобилем, поездом или самолётом</p>
+                <div class="banner-btns d-flex align-items-center gap-3">
+                    <a href="#" class="btn-blue d-none d-sm-block">Вызвать ритуального агента</a>
+                    <a href="#" class="btn-blue d-block d-sm-none">Связаться с нами</a>
+                    <a href="#" class="btn-outline-blue">Груз 200</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner end -->
+
+    <!-- up-services start -->
+
+    <div class="up-services container-xl mt-5 mb-sm-5 my-3">
+        <div class="row gap-3 gap-md-0">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title up-title">Что делать, если случилась беда?</h2>
+                        <p class="card-text up-text">Порядок ваших действий в экстренных ситуациях</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title up-title">Похоронный транспорт</h2>
+                        <p class="card-text up-text">В нашем автопарке 30 специализированных автомобилей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- up-services end -->
+
+    <!-- services start -->
+
+    <section class="services container-xl mt-sm-5 py-5">
+        <div class="services-head">
+            <h2 class="mb-3">Возьмём на себя все заботы, связанные с
+                организацией похорон</h2>
+            <p>Предлагаем Вашему вниманию наши услуги</p>
+        </div>
+        <div class="services-body py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xxl-3">
+                <div class="col">
+                    <div class="card mb-4 py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Похороны</h5>
+                                <p class="card-text">Организуем достойную
+                                    церемонию погребения и
+                                    прощания при любом бюджете</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3 mb-sm-4">
+                    <div class="card py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2-1.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Груз 200</h5>
+                                <p class="card-text">Перевезём умершего в любую
+                                    точку России и СНГ автомобилем,
+                                    поездом или самолётом</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2-2.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Катафальный транспорт</h5>
+                                <p class="card-text">Ритуальный
+                                    транспорт для перевозки
+                                    умершего и сопровождающих лиц</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2-3.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Кремация</h5>
+                                <p class="card-text">Организуем достойную
+                                    церемонию погребения и
+                                    прощания при любом бюджете</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2-4.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Ритуальные товары</h5>
+                                <p class="card-text">Предоставим ритуальные товары для организации достойного прощания.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card py-3 px-4">
+                        <div class="card-body d-flex gap-4">
+                            <div>
+                                <img src="assets/image/services/Component 2-5.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h5 class="card-title">Поминальные обеды</h5>
+                                <p class="card-text">Организация поминальных обедов с учётом всех традиций и пожеланий.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-btn mt-3 mt-sm-5">
+                    <a href="#" class="btn-outline-gray">Смотреть все услуги</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- services end -->
+
+    <!-- about start -->
+
+    <section class="about py-3 mb-5 container-xl">
+        <div class="row flex-column flex-lg-row g-4">
+            <!-- Основная карточка -->
+            <div class="col-lg-6">
+                <div class="card h-100 pt-4 pb-5 px-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Наше ритуальное бюро проконсультирует и организует достойные похороны</h2>
+                        <p class="card-text mt-5">Мы понимаем, что похороны близких — это тяжелый период, и готовы предложить профессиональную помощь. Мы предоставляем бесплатную консультацию по всем вопросам организации похорон, предлагаем выезд агента для оперативного решения задач, осуществляем встречу груза 200 в аэропортах с оформлением документов и организуем отправку по России, в ближнее и дальнее зарубежье.</p>
+                        <p class="card-text mt-4">Мы работаем со льготными категориями граждан согласно законодательству. Не бойтесь быть обманутыми. Обращайтесь. Мы всегда готовы Вам помочь!</p>
+                        <div class="mt-5">
+                            <a href="#" class="btn-outline-gray">Читать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Блок с тремя карточками -->
+            <div class="col-lg-6">
+                <div class="row flex-column flex-md-row flex-lg-column g-4">
+                    <!-- Карточка 1 -->
+                    <div class="col-md-4 col-lg-12">
+                        <div class="card h-100 px-4">
+                            <div class="card-body">
+                                <div class="mb-1">
+                                    <img src="assets/image/about/Component 2.svg" alt="icon">
+                                </div>
+                                <h5 class="card-title">Широкий спектр ритуальных услуг</h5>
+                                <p class="card-text">Полностью освободим вас от организационных хлопот и обеспечить достойное прощание с усопшим.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Карточка 2 -->
+                    <div class="col-md-4 col-lg-12">
+                        <div class="card h-100 px-4">
+                            <div class="card-body">
+                                <div class="mb-1">
+                                    <img src="assets/image/about/Component 2-1.svg" alt="icon">
+                                </div>
+                                <h5 class="card-title">Индивидуальный подход</h5>
+                                <p class="card-text">Любой план похорон может быть скорректирован с учётом ваших пожеланий и финансовых возможностей.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Карточка 3 -->
+                    <div class="col-md-4 col-lg-12">
+                        <div class="card h-100 px-4">
+                            <div class="card-body">
+                                <div class="mb-1">
+                                    <img src="assets/image/about/Component 2-2.svg" alt="icon">
+                                </div>
+                                <h5 class="card-title">Быстрое оформление документов</h5>
+                                <p class="card-text">Стоимость товаров и услуг фиксируется в договоре, это исключает доплаты и незапланированные затраты.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about end -->
+
+    <!-- rewards start -->
+
+    <section class="rewards container-xl py-3 mb-5">
+        <div class="rewards-head">
+            <h2>Отзывы о нашей работе</h2>
+            <p>Мы ценим каждый отзыв клиентов!</p>
+        </div>
+        <div class="slider-container mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-1 d-flex gap-4 align-items-center mb-4">
+                        <img src="assets/image/rewards/Container.svg" alt="icon">
+                        <div class="card-head">
+                            <h5>Ангелина Кузьмина</h5>
+                            <p>Похороны</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="card-text">Выражаю большую благодарность за оперативную работу вашей команде, в
+                            частности Аделю, понятно и много раз всё объяснил для полного понимания действий. Всегда был
+                            на связи и отвечал на возникающие вопросы, еще раз большое спасибо! Здоровья вам!</p>
+                    </div>
+                    <div class="rewards-background">
+                        <img src="assets/image/rewards/Component 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-1 d-flex gap-4 align-items-center mb-4">
+                        <img src="assets/image/rewards/Container.svg" alt="icon">
+                        <div class="card-head">
+                            <h5>Виктор Гурьянов</h5>
+                            <p>Похороны</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="card-text">Огромное спасибо за организацию похорон моего папы данной компании и лично
+                            Аделю, все было профессионально, честно, с душой и вниманием! Адель, Вы в трудную минуту
+                            взяли
+                            на себя часть забот и сделали их качественно и хорошо! Спасибо!</p>
+                    </div>
+                    <div class="rewards-background">
+                        <img src="assets/image/rewards/Component 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-1 d-flex gap-4 align-items-center mb-4">
+                        <img src="assets/image/rewards/Container.svg" alt="icon">
+                        <div class="card-head">
+                            <h5>Эля Романова</h5>
+                            <p>Ритуальные товары</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="card-text">Заказывали крест, нам привезли его прямо на кладбище. Стоимость доставки
+                            входит в цену. Вечером заказали, на следующий день, привезли!
+                            Понравилось взаимодействие с исполнителем!
+                            Сроки изготовления очень быстрые, качество отличное и доставка по адресу!</p>
+                    </div>
+                    <div class="rewards-background">
+                        <img src="assets/image/rewards/Component 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rewards-btn my-5">
+            <a href="#" class="btn-outline-gray">Оставить отзыв</a>
+        </div>
+    </section>
+
+
+    <!-- rewards end -->
+
+    <!-- footer start -->
+
+    <footer class="mt-5">
+        <div class="footer-bg py-5">
+            <div class="footer-content container-xl">
+                <div class="up-footer d-flex justify-content-between align-items-center">
+                    <p>Все материалы, находящиеся на сайте, охраняются в соответствии с
+                        законодательством, в том числе, об авторском праве и смежных правах</p>
+                    <a href="#" class="btn-outline-gray">
+                        <img src="assets/image/footer/Component 2.svg" class="img-fluid" alt="upper" />
+                    </a>
+                </div>
+                <div class="gray-line mt-5"></div>
+
+                <div class="footer-main my-5 py-5">
+
+                    <div class="row align-items-center">
+
+                        <div class="footer-main__contacts col-5">
+                            <a href="tel:+79370096700">
+                                <h3>+7 (937) 009-67-00</h3>
+                            </a>
+                            <div class="d-flex gap-4">
+                                <div>
+                                    <div class="d-flex gap-2">
+                                        <a href="#">WhatsApp</a>
+                                        <img src="assets/image/footer/Component 2-1.svg" alt="">
+                                    </div>
+                                    <div class="gray-line"></div>
+                                </div>
+                                <div>
+                                    <div class="d-flex gap-2">
+                                        <a href="#">Telegram</a>
+                                        <img src="assets/image/footer/Component 2-1.svg" alt="">
+                                    </div>
+                                    <div class="gray-line"></div>
+                                </div>
+                            </div>
+
+                            <div class="telephone my-5 d-flex flex-column gap-1">
+                                <p>Горячая линия:</p>
+                                <a href="tel:+2962099">296-20-99</a>
+                            </div>
+
+                            <div class="geo my-5 d-flex flex-column gap-1">
+                                <p>Мы  находимся по адресу:</p>
+                                <span>г. Казань, Республика Татарстан</span>
+                            </div>
+
+                            <div class="icons d-flex gap-3">
+                                <a href="#" class="btn-outline-gray">
+                                    <img src="assets/image/footer/icons/Component 2.svg" alt="">
+                                </a>
+                                <a href="#" class="btn-outline-gray">
+                                    <img src="assets/image/footer/icons/Component 2-1.svg" alt="">
+                                </a>
+                                <a href="#" class="btn-outline-gray">
+                                    <img src="assets/image/footer/icons/Component 2-2.svg" alt="">
+                                </a>
+                                <a href="#" class="btn-outline-gray">
+                                    <img src="assets/image/footer/icons/Component 2-3.svg" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="footer-main__form col">
+                            <h2>Будем рады ответить на Ваши вопросы</h2>
+                            <p class="my-3">Оставьте заявку и наши специалисты свяжутся с Вами в самое ближайшее время
+                            </p>
+                            <form method="post">
+                                <div class="d-flex">
+                                    <div class="form__group field">
+                                        <input type="text" class="form__field" name="name" id="name"
+                                            placeholder="Ваше имя" required />
+                                        <label for="name" class="form__label">Ваше имя</label>
+                                    </div>
+                                    <div class="form__group field me-5">
+                                        <input id="phone" type="text" class="form__field" name="tel" id="tel"
+                                            placeholder="Телефон" required />
+                                        <label for="tel" class="form__label">Телефон *</label>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3 mt-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <span>Я согласен(а) с обработкой персональных данных и политикой конфиденциальности
+                                        *</span>
+                                </div>
+                                <div class="mt-5">
+                                    <a href="#" class="btn-blue">Оставить заявку</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gray-line mt-5"></div>
+
+                <div class="low-rewards d-flex justify-content-between align-items-center mt-5">
+                    <p>Copyright © 2018 - 2025 Ритуальные услуги</p>
+                    <p class="bold">Поддержка.<span> Разработка сайтов <a href="https://abdulin.site"
+                                style="color: gray; text-decoration: underline !important;">abdulin.site</a></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="assets/javascript/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
