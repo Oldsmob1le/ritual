@@ -70,6 +70,16 @@
         font-size: 13px;
     }
 }
+@media (max-width: 376px) {
+    /* .up-city p {
+        font-size: 10px;
+    } */
+
+    .up-content {
+        flex-direction: column;
+        gap: 3px;
+    }
+}
 
 /* up-header end */
 
@@ -196,13 +206,21 @@ header a {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     header {
         padding: 20px 0;
     }
 
+    .header-menu a {
+        font-size: 18.6px;
+    }
+
     .header-logo a {
         font-size: 22px;
+    }
+
+    .header-menu {
+        margin-left: 0 !important;
     }
 }
 
@@ -213,7 +231,10 @@ header a {
         margin-top: 15px;
         margin-left: 0 !important;
     }
-}
+    .modal-header h3 {
+        font-size: 20px;
+    }
+ }
 
 
 /* header end */
@@ -518,6 +539,7 @@ header a {
     .about .card {
         max-width: 100vw;
     }
+
     .about .card-text {
         max-width: 100vw;
     }
@@ -596,35 +618,41 @@ header a {
     .rewards .card {
         max-width: 51vw;
         min-width: 49vw;
-    }    
+    }
 
     .rewards-head h2 {
         font-size: 38px;
     }
 }
+
 @media (max-width: 768px) {
     .rewards .card {
         max-width: 100vw;
         min-width: 90vw;
-    }    
+    }
+
     .rewards-head h2 {
         font-size: 36px;
     }
 }
+
 @media (max-width: 426px) {
     .rewards .card {
         max-width: 100vw;
         min-width: 94vw;
-    }    
+    }
+
     .rewards-head h2 {
         font-size: 30px;
     }
 }
+
 @media (max-width: 376px) {
     .rewards .card {
         max-width: 100vw;
         min-width: 93vw;
-    }    
+    }
+
     .rewards-head h2 {
         font-size: 27px;
     }
@@ -768,24 +796,56 @@ label {
     box-shadow: none;
 }
 
+@media (max-width: 1200px) {
+    .form__field {
+        min-width: 400px;
+    }
+}
+
 @media (max-width: 768px) {
     .form__field {
         min-width: 280px;
     }
 }
+
 @media (max-width: 686px) {
     .form__field {
         min-width: 250px;
     }
 }
+
 @media (max-width: 591px) {
     .form__field {
         min-width: 200px;
     }
 }
+
 @media (max-width: 576px) {
     .form__field {
         min-width: 300px;
+    }
+}
+
+@media (max-width: 426px) {
+    .up-footer p {
+        max-width: 55vw;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 376px) {
+    .applied {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 321px) {
+    .form__field {
+        min-width: 250px;
+    }
+    .up-footer p {
+        max-width: 55vw;
+        font-size: 12px;
     }
 }
 
