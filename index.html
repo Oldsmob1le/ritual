@@ -70,23 +70,6 @@
                             <a href="#" class="btn-gray" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить
                                 заявку</a>
                         </div>
-                        <!-- <div class="d-flex justify-content-center">
-                            <p>Круглосуточная горячая линия:</p>
-                            <div class="d-flex gap-3">
-                                <a href="tel:+79370096700">
-                                    +7 (937) 009-67-00
-                                </a>
-                                <div class="dropdown">
-                                    <a class="btn-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        еще
-                                    </a>
-                
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="tel:296-20-99">
-                                                296-20-99</a></li>
-                                    </ul>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </nav>
@@ -104,21 +87,22 @@
                 </div>
                 <div class="modal-body">
                     <form method="post">
-                        <div class="d-flex flex-column">
-                            <div class="form__group form-header field w-100">
-                                <input type="text" class="form__field" name="name" id="name" placeholder="Ваше имя"
-                                    required />
-                                <label for="name" class="form__label">Ваше имя</label>
+                        <div class="d-flex flex-column flex-sm-row gap-3">
+                            <div class="w-100 w-md-50">
+                                <label for="exampleFormControlInput1" class="form-label">Ваше имя</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Иван">
                             </div>
-                            <div class="form__group field w-100">
-                                <input id="phone" type="text" class="form__field" name="tel" id="tel"
-                                    placeholder="Телефон" required />
-                                <label for="tel" class="form__label">Телефон *</label>
+                            <div class="w-100 w-md-50">
+                                <label for="exampleFormControlInput1" class="form-label">Телефон *</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="+7 (937) 009-67-00">
                             </div>
                         </div>
                         <div class="d-flex gap-3 mt-4">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <span class="applied">Я согласен(а) с обработкой персональных данных и политикой конфиденциальности*</span>
+                            <span class="applied">Я согласен(а) с обработкой персональных данных и политикой
+                                конфиденциальности*</span>
                         </div>
 
                     </form>
@@ -493,19 +477,16 @@
 
                         <div class="footer-main__form col mt-5 mt-md-0">
                             <h2>Будем рады ответить на Ваши вопросы</h2>
-                            <p class="my-3">Оставьте заявку и наши специалисты свяжутся с Вами в самое ближайшее время
-                            </p>
+                            <p class="my-3">Оставьте заявку, и наши специалисты свяжутся с Вами в самое ближайшее время</p>
                             <form method="post">
-                                <div class="d-flex flex-column flex-sm-row">
-                                    <div class="form__group field">
-                                        <input type="text" class="form__field" name="name" id="name"
-                                            placeholder="Ваше имя" required />
-                                        <label for="name" class="form__label">Ваше имя</label>
+                                <div class="d-flex flex-column flex-sm-row gap-3">
+                                    <div class="w-100 w-md-50">
+                                        <label for="name" class="form-label">Ваше имя</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Иван">
                                     </div>
-                                    <div class="form__group field me-5">
-                                        <input id="phone" type="text" class="form__field" name="tel" id="tel"
-                                            placeholder="Телефон" required />
-                                        <label for="tel" class="form__label">Телефон *</label>
+                                    <div class="w-100 w-md-50">
+                                        <label for="phone" class="form-label">Телефон *</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="+7 (937) 009-67-00">
                                     </div>
                                 </div>
                                 <div class="d-flex gap-3 mt-4">
@@ -517,13 +498,15 @@
                                 </div>
                             </form>
                         </div>
+
                     </div>
 
                 </div>
 
                 <div class="gray-line mt-5"></div>
 
-                <div class="low-rewards d-flex flex-column flex-md-row gap-3 gap-md-0 justify-content-between align-items-center mt-5">
+                <div
+                    class="low-rewards d-flex flex-column flex-md-row gap-3 gap-md-0 justify-content-between align-items-center mt-5">
                     <p>Copyright © 2018 - 2025 Ритуальные услуги</p>
                     <p class="bold">Поддержка.<span> Разработка сайтов <a href="https://abdulin.site"
                                 style="color: gray; text-decoration: underline !important;">abdulin.site</a></span></p>

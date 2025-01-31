@@ -135,3 +135,15 @@ body {
 .card {
     border-radius: 12px !important;
 }
+
+/* form */
+
+.form-control::placeholder {
+    color: #c1c1c1;
+}
+
+.form-control {
+    /* background-color: transparent !important; */
+    background-color: #ffffff69;
+    /* max-width: 320px; */
+}
