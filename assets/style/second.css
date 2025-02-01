@@ -1,0 +1,25 @@
+/* <------- Mortuary Page -------> */
+
+/* Mortuary Start */
+
+/* .mortuary {
+    padding: 80px 0;
+} */
+
+.mortuary h2 {
+    color: var(--gray);
+}
+
+.mortuary .card-body h5 {
+    font-size: 23px;
+    margin: 0;
+}
+.mortuary .card-body p {
+    color: var(--light);
+}
+
+.mortuary .btn-blue, .btn-outline-blue {
+    padding: 6px 15px;
+}
+
+/* Mortuary End */
